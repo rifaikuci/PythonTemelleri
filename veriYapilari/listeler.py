@@ -16,8 +16,8 @@ sehirler.remove("Rifai")
 denemeList = (("rİFAİ","kUÇİ"))
 
 print(sehirler.count("Betül")) # listede kaç tane olduğunu döndürür.
-print(sehirler.pop(0))
-sehirler.insert(0,"Mardin")
+print(sehirler.pop(0)) # sehilerden 0.elemanı çıkar
+sehirler.insert(0,"Mardin") # 0. elemana Mardini ekle
 sehirler.reverse()
 print(sehirler)
 
@@ -28,3 +28,7 @@ sehirler.extend(sehirler3) #sehirler3'e sehirlere eklemesi yapılır.
 sehirler.sort() # sıralamayı yapar
 sehirler.reverse()  #ters çevirme işlemini yapar
 print(sehirler)
+
+#sehirler.clear() -> sehirler listesinin tamamının silinmesine neden olur
+
+#sehirler.count("Mardin") -> sehirler listesinde kaç tane mardin olduğunu döndürür.
