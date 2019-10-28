@@ -7,7 +7,7 @@ secondString = "rifai kuci"
 # upper string harlerinin büyütülmesini sağlar.
 
 if(firstString.upper() == secondString.upper()):
-     print("Kelimeler Eşit")
+      print("Kelimeler Eşit")
 
 else:
      print("Kelimeler Eşit Değil")
