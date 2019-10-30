@@ -31,3 +31,6 @@ cursor = connection.execute("select FirstName,LastName from customers where  Las
 for row in cursor:
     print("Adı : ", row[0])
     print("Soyadi : ", row[1])
+    
+
+connection.close()
