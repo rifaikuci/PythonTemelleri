@@ -20,3 +20,14 @@ connection = sqlite3.connect("chinook.db")
 # for row in cursor:
 #     print("Sehir : " + row[0] )
 #     print("Sayi : " +str( row[1]) )
+
+
+#like kullanimi
+# %ee -> sonu ee ile biten
+# %a% iiçinde a geçmesi yeterli
+# a% a ile başlaması yeterli
+cursor = connection.execute("select FirstName,LastName from customers where  LastName like '%ee%'  ")
+
+for row in cursor:
+    print("Adı : ", row[0])
+    print("Soyadi : ", row[1])
