@@ -1,4 +1,5 @@
 
+import pandas
 #
 firstString = "RifAi KucI"
 secondString = "rifai kuci"
